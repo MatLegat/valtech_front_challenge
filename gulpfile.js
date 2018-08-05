@@ -25,8 +25,10 @@ const compileAssets = () => {
     (completed, total) => logger.update(`Exported ${completed} of ${total} items`, 'info')
   )
   builder.on('error', err => logger.error(err.message))
-  return builder.build().then(() => {
-    logger.success('Fractal build completed!')
+  return new Promise ((callback) => {
+    builder.build().then(
+      () => logger.success('Fractal build completed!')
+    ).then(callback)
   })
 }
 
@@ -45,6 +47,5 @@ const start = () => {
 
 // Gulp build command:
 gulp.task('build', () => {
-  compileAssets()
-  start()
+  compileAssets().then(start)
 })
