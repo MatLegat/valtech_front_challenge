@@ -1,0 +1,15 @@
+
+@for $i from 1 through 4 {
+  div {
+    &.card {
+      background-color: red;  // TODO REMOVE
+      height: 360px;
+      &.width-x#{$i} {
+        width: $i * 240px - 20px;
+      }
+      &.taller {
+        height: 520px;
+      }
+    }
+  }
+}
