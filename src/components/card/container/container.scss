@@ -1,4 +1,25 @@
+$small--padding: 1220px;
+$break--mobile: 1040px;
+
 div.card-container {
-  padding: 60px;
-  text-align: center;
+  @media screen and (min-width: $small--padding + 1) {
+    padding: 86px 91px 86px 111px;
+    .card:last-child {
+      margin-bottom: 86px;
+    }
+  }
+  @media screen and (max-width: $small--padding) {
+    padding: 40px 0px 40px 20px;
+    .card:last-child {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (min-width: $break--mobile + 1) {
+    width: 960px;
+  }
+  @media screen and (max-width: $break--mobile) {
+    width: 320px;
+  }
+  margin: 0 auto;
+  display: block;
 }
