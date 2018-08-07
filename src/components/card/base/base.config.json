@@ -1,0 +1,23 @@
+{
+  "context": {
+    "bg-image": "/static/images/Lagoa.jpg",
+    "modifier": "width-x1",
+    "caption": "Caption",
+    "sub-caption": "Sub Caption",
+    "text": "Lorem ipsun dolor sit a met lorem dolor sit a met factius"
+  },
+  "variants":[
+    {
+      "name": "double",
+      "context": {
+        "modifier": "width-x2"
+      }
+    },
+    {
+      "name": "full",
+      "context": {
+        "modifier": "taller width-x4"
+      }
+    }
+  ]
+}

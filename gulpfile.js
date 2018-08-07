@@ -24,9 +24,8 @@ const logger = fractal.cli.console
 // Compile Sass styles:
 const sassPath = `${__dirname}/src/components/**/*.scss`
 const compileSass = () => {
-  gulp.src(sassPath)
+  gulp.src([sassPath])
     .pipe(sass().on('error', sass.logError))
-    .pipe(rename('style.css'))
     .pipe(gulp.dest('build/public/css'))
 }
 const watchSass = () => {
@@ -36,7 +35,7 @@ const watchSass = () => {
 
 
 // Copy static files to build path
-const staticPath = `${__dirname}/src/static/*`
+const staticPath = `${__dirname}/src/static/**`
 const copyStatic = () => {
   gulp.src(staticPath)
     .pipe(gulp.dest(`build/public/static/`))

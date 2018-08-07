@@ -1,0 +1,31 @@
+{
+  "context": {
+    "cards":[
+      {
+        "data": {
+          "modifier":"@base--full.modifier",
+          "sub-caption":"Front-end",
+          "logo":"/static/images/Logo.svg",
+          "bg-image": "/static/images/Lagoa.jpg",
+          "text":"txt txt txt txt txt txt txt txt txt txt txt txt txt txt "
+        }
+      },
+      {
+        "data": {
+          "modifier":"@base--double.modifier",
+          "sub-caption":"Italy",
+          "caption":"Venice",
+          "bg-image": "/static/images/Venice.jpg"
+        }
+      },
+      {
+        "data": {
+          "modifier":"@base.modifier",
+          "sub-caption":"Germany",
+          "caption":"Berlin",
+          "bg-image": "/static/images/Berlin.jpg"
+        }
+      }
+    ]
+  }
+}
