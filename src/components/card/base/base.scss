@@ -26,49 +26,12 @@ div.card {
     box-shadow: 0 0 30px rgba(85,85,85,0.5);
   }
 
-  @media screen and (max-width: $break--mobile) {
-    max-width: 280px !important;
-    height: 280px;
-  }
-
-  &.taller {
-    @media screen and (max-width: $break--mobile) {
-      div.caption {
-        top: 72px !important;
-      }
-
-      div.text {
-          top: 146px !important;
-      }
-    }
-
-    @media screen and (min-width: $break--mobile + 1) {
-      height: 520px;
-
-      div.caption {
-        top: 181px !important;
-      }
-
-      div.text {
-          top: 285px !important;
-      }
-
-      img.card-bg {
-        max-width: 100%;
-        min-width: 100%;
-      }
-    }
-  }
-
   img.card-bg {
     min-width: 100%;
     min-height: 100%;
     margin: 0 -100%;
     position: relative;
     z-index: 0;
-    @media screen and (max-width: $break--mobile) {
-      max-height: 100%;
-    }
   }
 
   &:not(.taller) img.card-bg {
@@ -92,20 +55,7 @@ div.card {
 
     div.text {
       position: absolute;
-      @media screen and (max-width: $break--mobile) {
-        width: 84%;
-        margin: 0 8%;
-        top: 210px;
-        font-size: 14px;
-        line-height: 20px;
-      }
-      @media screen and (min-width: $break--mobile + 1) {
-        width: 60%;
-        margin: 0 20%;
-        top: 225px;
-        font-size: 16px;
-        line-height: 26px;
-      }
+
       p {
         margin: 0;
       }
@@ -114,12 +64,6 @@ div.card {
     div.caption {
       position: absolute;
       width: 100%;
-      @media screen and (max-width: $break--mobile) {
-        top: 112px;
-      }
-      @media screen and (min-width: $break--mobile + 1) {
-        top: 152px;
-      }
 
       h3 {
         font-size: 14px;
@@ -137,14 +81,85 @@ div.card {
         text-transform: uppercase;
         margin: 6px;
       }
+    }
+  }
+}
+
+// Mobile-only rules
+@media screen and (max-width: $break--mobile) {
+  div.card {
+    max-width: 280px !important;
+    height: 280px;
+
+    &.taller {
+      div.caption {
+        top: 72px !important;
+      }
+
+      div.text {
+          top: 146px !important;
+      }
+    }
+  }
+
+  img.card-bg {
+    max-height: 100%;
+  }
+
+  div.content {
+    div.text {
+      width: 84%;
+      margin: 0 8%;
+      top: 210px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    div.caption {
+      top: 112px;
 
       img.logo {
-        width: 46.88%;
-        max-width: 223px;
-        @media screen and (max-width: $break--mobile) {
-          margin: 6px 0;
-        }
-        @media screen and (min-width: $break--mobile + 1) {
+        width: 150px;
+        margin: 3px 0;
+      }
+    }
+  }
+}
+
+// Desktop-only rules
+@media screen and (min-width: $break--mobile + 1) {
+  div.card {
+    &.taller {
+      height: 520px;
+
+      div.caption {
+        top: 181px !important;
+      }
+
+      div.text {
+          top: 285px !important;
+      }
+
+      img.card-bg {
+        max-width: 100%;
+        min-width: 100%;
+      }
+    }
+
+    div.content {
+      div.text {
+        width: 60%;
+        margin: 0 20%;
+        top: 225px;
+        font-size: 16px;
+        line-height: 26px;
+      }
+
+      div.caption {
+        top: 152px;
+
+        img.logo {
+          width: 223px;
           margin: 16px 0;
         }
       }
