@@ -35,7 +35,7 @@ const watchSass = () => {
 
 
 // Copy static files to build path
-const staticPath = `${__dirname}/src/static/**`
+const staticPath = `${__dirname}/src/static/**/*`
 const copyStatic = () => {
   gulp.src(staticPath)
     .pipe(gulp.dest(`build/public/static/`))

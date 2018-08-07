@@ -5,8 +5,8 @@
         "data": {
           "modifier":"@base--full.modifier",
           "sub-caption":"Front-end",
-          "logo":"/static/images/Logo.svg",
-          "bg-image": "/static/images/Lagoa.jpg",
+          "logo":"/static/images/logo.svg",
+          "bg-image": "/static/images/lagoa.jpg",
           "text":"Lorem ipsun dolor sit a met lorem dolor sit a met factius lorem ipsun dolor sit a met ipsun lorem amet"
         }
       },
@@ -15,7 +15,7 @@
           "modifier":"@base--double.modifier",
           "sub-caption":"Italy",
           "caption":"Venice",
-          "bg-image": "/static/images/Venice.jpg"
+          "bg-image": "/static/images/venice.jpg"
         }
       },
       {
@@ -23,7 +23,7 @@
           "modifier":"@base.modifier",
           "sub-caption":"Germany",
           "caption":"Berlin",
-          "bg-image": "/static/images/Berlin.jpg"
+          "bg-image": "/static/images/berlin.jpg"
         }
       },
       {
@@ -31,7 +31,7 @@
           "modifier":"@base.modifier",
           "sub-caption":"Spain",
           "caption":"Barcelona",
-          "bg-image": "/static/images/Barcelona.jpg"
+          "bg-image": "/static/images/barcelona.jpg"
         }
       },
       {
@@ -39,7 +39,7 @@
           "modifier":"@base.modifier",
           "sub-caption":"France",
           "caption":"Paris",
-          "bg-image": "/static/images/Paris.jpg"
+          "bg-image": "/static/images/paris.jpg"
         }
       },
       {
@@ -47,7 +47,7 @@
           "modifier":"@base.modifier",
           "sub-caption":"Netherlands",
           "caption":"Amsterdam",
-          "bg-image": "/static/images/Amsterdam.jpg"
+          "bg-image": "/static/images/amsterdam.jpg"
         }
       },
       {
@@ -55,7 +55,7 @@
           "modifier":"@base--double.modifier",
           "sub-caption":"United Kingdom",
           "caption":"London",
-          "bg-image": "/static/images/London.jpg"
+          "bg-image": "/static/images/london.jpg"
         }
       }
     ]

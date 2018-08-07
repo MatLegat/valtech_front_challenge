@@ -1,6 +1,6 @@
 {
   "context": {
-    "bg-image": "/static/images/Lagoa.jpg",
+    "bg-image": "/static/images/lagoa.jpg",
     "modifier": "width-x1",
     "caption": "Caption",
     "sub-caption": "Sub Caption",
