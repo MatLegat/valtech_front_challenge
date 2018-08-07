@@ -7,6 +7,7 @@
           "sub-caption":"Front-end",
           "logo":"/static/images/logo.svg",
           "bg-image": "/static/images/lagoa.jpg",
+          "bg-alignment":"h-center",
           "text":"Lorem ipsun dolor sit a met lorem dolor sit a met factius lorem ipsun dolor sit a met ipsun lorem amet"
         }
       },
@@ -15,7 +16,8 @@
           "modifier":"@base--double.modifier",
           "sub-caption":"Italy",
           "caption":"Venice",
-          "bg-image": "/static/images/venice.jpg"
+          "bg-image": "/static/images/venice.jpg",
+          "bg-alignment":"h-center"
         }
       },
       {
@@ -23,7 +25,8 @@
           "modifier":"@base.modifier",
           "sub-caption":"Germany",
           "caption":"Berlin",
-          "bg-image": "/static/images/berlin.jpg"
+          "bg-image": "/static/images/berlin.jpg",
+          "bg-alignment":"h-center"
         }
       },
       {
@@ -31,7 +34,8 @@
           "modifier":"@base.modifier",
           "sub-caption":"Spain",
           "caption":"Barcelona",
-          "bg-image": "/static/images/barcelona.jpg"
+          "bg-image": "/static/images/barcelona.jpg",
+          "bg-alignment":"v-center"
         }
       },
       {
@@ -39,7 +43,8 @@
           "modifier":"@base.modifier",
           "sub-caption":"France",
           "caption":"Paris",
-          "bg-image": "/static/images/paris.jpg"
+          "bg-image": "/static/images/paris.jpg",
+          "bg-alignment":"h-center"
         }
       },
       {
@@ -47,7 +52,8 @@
           "modifier":"@base.modifier",
           "sub-caption":"Netherlands",
           "caption":"Amsterdam",
-          "bg-image": "/static/images/amsterdam.jpg"
+          "bg-image": "/static/images/amsterdam.jpg",
+          "bg-alignment":"v-center"
         }
       },
       {
@@ -55,7 +61,8 @@
           "modifier":"@base--double.modifier",
           "sub-caption":"United Kingdom",
           "caption":"London",
-          "bg-image": "/static/images/london.jpg"
+          "bg-image": "/static/images/london.jpg",
+          "bg-alignment":"left"
         }
       }
     ]

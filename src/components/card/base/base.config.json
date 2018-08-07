@@ -1,6 +1,7 @@
 {
   "context": {
     "bg-image": "/static/images/lagoa.jpg",
+    "bg-alignment":"h-center",
     "modifier": "width-x1",
     "caption": "Caption",
     "sub-caption": "Sub Caption",
