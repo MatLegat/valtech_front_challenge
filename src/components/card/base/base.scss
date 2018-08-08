@@ -1,13 +1,24 @@
 $break--mobile: 1040px;
 
 * {
-  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 @for $i from 1 through 4 {
   div.card.width-x#{$i} {
     max-width: $i * 240px - 20px;
   }
+}
+
+img {
+  opacity: 1;
+}
+
+img[data-src] {
+  opacity: 0;
 }
 
 div.card {
@@ -33,19 +44,27 @@ div.card {
     z-index: 0;
   }
 
-  &:not(.taller) img.card-bg {
-    &.h-center {
-      max-height: 100%;
-      margin: 0 -100%;
+  &:not(.taller) {
+    div.text:not(.visible) {
+      opacity: 0;
     }
-    &.v-center {
-      max-height: 360px;
-      margin: -70% 0;
-      position: relative;
-      top: 42.75%;
-    }
-    &.left {
-      max-height: 100%
+
+    img.card-bg {
+      &.h-center {
+        max-height: 100%;
+        margin: 0 -100%;
+      }
+
+      &.v-center {
+        max-height: 360px;
+        margin: -70% 0;
+        position: relative;
+        top: 42.75%;
+      }
+
+      &.left {
+        max-height: 100%
+      }
     }
   }
 
@@ -108,34 +127,38 @@ div.card {
 
     &.taller {
       div.caption {
-        top: 72px !important;
+        top: 72px;
       }
-
       div.text {
-          top: 146px !important;
+        top: 146px;
       }
     }
-  }
-
-  img.card-bg.h-center {
-    max-height: 100%;
-  }
-
-  div.content {
-    div.text {
-      width: 84%;
-      margin: 0 8%;
-      top: 210px;
-      font-size: 14px;
-      line-height: 20px;
+    img.card-bg.h-center {
+      max-height: 100%;
     }
 
-    div.caption {
-      top: 112px;
+    &:not(.taller) {
+      div.caption {
+        top: 112px;
+      }
+      div.text {
+        top: 185px;
+      }
+    }
 
-      img.logo {
-        width: 150px;
-        margin: 3px 0;
+    div.content {
+      div.text {
+        width: 84%;
+        margin: 0 8%;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      div.caption {
+        img.logo {
+          width: 150px;
+          margin: 3px 0;
+        }
       }
     }
   }
@@ -148,11 +171,12 @@ div.card {
       height: 520px;
 
       div.caption {
-        top: 181px !important;
+        top: 181px;
       }
 
       div.text {
-          top: 285px !important;
+          top: 285px;
+          line-height: 26px;
       }
 
       img.card-bg.h-center {
@@ -166,22 +190,27 @@ div.card {
       }
     }
 
+    &:not(taller) {
+      div.text {
+        top: 225px;
+        line-height: 20px;
+      }
+      div.caption {
+        top: 152px;
+      }
+
+    }
+
     div.content {
       div.text {
         width: 60%;
         margin: 0 20%;
-        top: 225px;
         font-size: 16px;
-        line-height: 26px;
       }
 
-      div.caption {
-        top: 152px;
-
-        img.logo {
-          width: 223px;
-          margin: 16px 0;
-        }
+      div.caption img.logo {
+        width: 223px;
+        margin: 16px 0;
       }
     }
   }

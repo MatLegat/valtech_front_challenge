@@ -17,7 +17,8 @@
           "sub-caption":"Italy",
           "caption":"Venice",
           "bg-image": "/static/images/venice.jpg",
-          "bg-alignment":"h-center"
+          "bg-alignment":"h-center",
+          "text":"Venice, the capital of nothern Italy's Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals."
         }
       },
       {
@@ -26,7 +27,8 @@
           "sub-caption":"Germany",
           "caption":"Berlin",
           "bg-image": "/static/images/berlin.jpg",
-          "bg-alignment":"h-center"
+          "bg-alignment":"h-center",
+          "text":"Berlin, Germany’s capital, is a city known for its art scene and modern landmarks."
         }
       },
       {
@@ -35,7 +37,8 @@
           "sub-caption":"Spain",
           "caption":"Barcelona",
           "bg-image": "/static/images/barcelona.jpg",
-          "bg-alignment":"v-center"
+          "bg-alignment":"v-center",
+          "text":"Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and architecture."
         }
       },
       {
@@ -44,7 +47,8 @@
           "sub-caption":"France",
           "caption":"Paris",
           "bg-image": "/static/images/paris.jpg",
-          "bg-alignment":"h-center"
+          "bg-alignment":"h-center",
+          "text":"Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture."
         }
       },
       {
@@ -53,7 +57,8 @@
           "sub-caption":"Netherlands",
           "caption":"Amsterdam",
           "bg-image": "/static/images/amsterdam.jpg",
-          "bg-alignment":"v-center"
+          "bg-alignment":"v-center",
+          "text":"Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades."
         }
       },
       {
@@ -62,7 +67,8 @@
           "sub-caption":"United Kingdom",
           "caption":"London",
           "bg-image": "/static/images/london.jpg",
-          "bg-alignment":"left"
+          "bg-alignment":"left",
+          "text":"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times."
         }
       }
     ]
