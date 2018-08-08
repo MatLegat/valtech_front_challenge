@@ -9,7 +9,7 @@ const loadImage = (img) => {
 const loadImagesOnViewport = () => {
   const viewportHeight = window.innerHeight || document.documentElement.clientHeight
   const imgElements = Array.from(document.getElementsByTagName('img'))
-  const notLoadedImages = imgElements.filter(img => img.getAttribute('data-src'))
+  const notLoadedImages = imgElements.filter(img => !img.getAttribute('src'))
   const imagesToLoad = notLoadedImages.filter(img => {
     const imgBoundingRect = img.parentElement.getBoundingClientRect()
     return imgBoundingRect.top < viewportHeight && imgBoundingRect.bottom > 0
