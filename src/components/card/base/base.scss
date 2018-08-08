@@ -33,6 +33,11 @@ div.card {
   margin-right: 20px;
   float: left;
 
+  .btn {
+    position: relative;
+    top: 78%;
+  }
+
   &:hover {
     box-shadow: 0 0 30px rgba(85,85,85,0.5);
   }
@@ -45,7 +50,7 @@ div.card {
   }
 
   &:not(.taller) {
-    div.text:not(.visible) {
+    div.text:not(.visible), .btn:not(.visible) {
       opacity: 0;
     }
 

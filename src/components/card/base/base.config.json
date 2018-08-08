@@ -11,7 +11,10 @@
     {
       "name": "double",
       "context": {
-        "modifier": "width-x2"
+        "modifier": "width-x2",
+        "button": {
+          "label":"test button"
+        }
       }
     },
     {

@@ -1,6 +1,12 @@
 $small--padding: 1220px;
 $break--mobile: 1040px;
 
+html, body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
 div.card-container {
   @media screen and (min-width: $small--padding + 1) {
     padding: 86px 91px 86px 111px;

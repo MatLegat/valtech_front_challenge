@@ -1,0 +1,16 @@
+.btn {
+  background-color: rgba(255,255,255,0);
+  background: rgba(255,255,255,0);
+  border: 1px solid white;
+  padding: 12px 25px;
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 4px;
+  &:hover {
+    background: rgba(255,255,255,0.3);
+    cursor: pointer;
+  }
+}

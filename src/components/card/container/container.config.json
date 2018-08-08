@@ -18,7 +18,11 @@
           "caption":"Venice",
           "bg-image": "/static/images/venice.jpg",
           "bg-alignment":"h-center",
-          "text":"Venice, the capital of nothern Italy's Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals."
+          "text":"Venice, the capital of nothern Italy's Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals.",
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('Venice Button!')"
+          }
         }
       },
       {
@@ -28,7 +32,11 @@
           "caption":"Berlin",
           "bg-image": "/static/images/berlin.jpg",
           "bg-alignment":"h-center",
-          "text":"Berlin, Germany’s capital, is a city known for its art scene and modern landmarks."
+          "text":"Berlin, Germany’s capital, is a city known for its art scene and modern landmarks.",
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('Berlin Button!')"
+          }
         }
       },
       {
@@ -38,7 +46,11 @@
           "caption":"Barcelona",
           "bg-image": "/static/images/barcelona.jpg",
           "bg-alignment":"v-center",
-          "text":"Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and architecture."
+          "text":"Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and architecture.",
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('Barcelona Button!')"
+          }
         }
       },
       {
@@ -48,7 +60,12 @@
           "caption":"Paris",
           "bg-image": "/static/images/paris.jpg",
           "bg-alignment":"h-center",
-          "text":"Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture."
+          "text":"Paris, France's capital, is a major European city and a center for art, fashion and culture."
+          ,
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('Paris Button!')"
+          }
         }
       },
       {
@@ -58,7 +75,11 @@
           "caption":"Amsterdam",
           "bg-image": "/static/images/amsterdam.jpg",
           "bg-alignment":"v-center",
-          "text":"Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and architecture."
+          "text":"Amsterdam is the Netherlands’ capital, known for its artistic heritage and elaborate canal system.",
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('Amsterdam Button!')"
+          }
         }
       },
       {
@@ -68,7 +89,11 @@
           "caption":"London",
           "bg-image": "/static/images/london.jpg",
           "bg-alignment":"left",
-          "text":"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times."
+          "text":"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.",
+          "button":{
+            "label":"explore more",
+            "onclick":"alert('London Button!')"
+          }
         }
       }
     ]

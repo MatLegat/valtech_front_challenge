@@ -1,0 +1,6 @@
+{
+  "context": {
+    "label":"click me",
+    "onclick":"alert('Test Button!')"
+  }
+}
